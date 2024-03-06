@@ -54,7 +54,6 @@ export const reducer = (state = initialState, action) => {
                     gender: action.payload.gender
                 }
             };
-
         default:
             return state;
     }
