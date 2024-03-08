@@ -16,7 +16,7 @@ function App() {
   const [admin,setAdmin]=useState(null)
   const [loading,setLoading]=useState(true)
 
-  
+
   function Routing(){
     useEffect(()=>{
       const fetchData=async ()=>{
@@ -52,7 +52,6 @@ function App() {
     return user ? <Profile /> : <Navigate to='/login' />;
   }
   }
-
 
   function AdminRouting(){
     useEffect(()=>{
