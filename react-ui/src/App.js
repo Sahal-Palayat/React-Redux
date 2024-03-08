@@ -41,7 +41,6 @@ function App() {
   if(path==='/login'){
     return !user? <Login/>: <Navigate to='/' />
   }
-
   if(path==='/register'){
     return !user?<Register/>:<Navigate to= '/'/> 
   }
